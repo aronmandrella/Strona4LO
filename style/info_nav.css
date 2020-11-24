@@ -1,0 +1,196 @@
+ol.nav
+{
+	background: url(img/red.jpg);
+
+	/*przed separator*/
+	position: relative;
+	z-index: 100;
+	
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+
+
+ol li
+{	
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	
+	border-right: 2px solid #ba9;
+}
+ol li:last-child
+{
+	border-right: none;
+}
+
+ol li .ol_head
+{	
+
+
+	line-height: 40px;
+	width: 200px;
+	margin: 5px;
+	
+	transition: all 0.3s ease-in-out;
+}
+ol li:hover .ol_head
+{
+	text-decoration: underline;
+	box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.1), 0px 5px 10px 2px rgba(0,0,0,0.2);
+}
+
+/*UKRYTE*/
+ol li ol
+{
+	background: url(img/red.jpg);
+	display: none;
+	
+	position: absolute;
+	z-index: -1;
+	
+	width: 100%;
+	
+	border: 2px solid #200;
+	box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.4), 0px 5px 35px 2px rgba(0,0,0,1);
+}
+ol li ol li
+{	
+	display: block;
+	
+	font-size: 80%;
+	line-height: 250%;
+
+	border: none;
+	border-bottom: 3px dotted #755;
+	box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.4);
+}
+ol li ol li:hover
+{
+	border-bottom: 3px dotted #868;
+	box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.4), inset 0px 0px 40px 0px rgba(0,0,0,0.4);
+}
+
+
+.admin_taskbar
+{
+	text-align: center;
+	margin-top: 10px;
+}
+.admin_taskbar button
+{
+	background: none;
+	
+    border:	none;
+    cursor:	pointer;
+	font-size: 50px;
+	
+	color: #578;
+	opacity: 0.5;
+	
+	transition: all 0.2s ease-in-out;
+}
+.admin_taskbar button:hover
+{
+	opacity: 1;
+}
+
+
+
+.container
+{
+	background: #e7f6f3 url("img/gray.jpg") ; /*repeat-x center -55px;*/
+    
+	/*background-attachment: fixed;*/
+	padding: 40px 15px;
+	min-height: 400px;
+	
+	box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.4);
+}
+.content
+{
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+	border: 4px dashed #578;
+}
+
+
+
+@media only screen and (max-width: 768px) 
+{
+	ol
+	{
+		background: url(img/red.jpg);
+
+		text-align: center;
+		padding: 0px;
+		position: static;
+		z-index: 100;
+		
+		font-family: 'Libre Baskerville', serif;
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+	ol li
+	{	
+		display: block;
+		position: static;
+		line-height: 40px;
+		width: 100%;
+		z-index: 100;
+		
+		border-right: none;
+		
+		transition: all 0.3s ease-in-out;
+	}
+	ol li ol
+	{
+		background: #300;
+		
+		width: 100%;
+		display: none;
+		position: static;
+		left: 0px;
+		top: 0px;
+		z-index: -6;
+		color: #eee;
+		letter-spacing: 0px;
+
+		border: none;
+		box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.8), 0px 0px 10px 0px rgba(0,0,0,0.5);
+	}
+	ol li:hover
+	{
+		text-decoration: none;
+		box-shadow: none;
+		cursor: pointer;
+	}
+
+	ol li ol li
+	{	
+		font-size: 80%;
+		z-index: -1;
+		position:static;
+		border-bottom: none;
+		box-shadow: none;
+	}
+	ol li ol li:hover
+	{
+	text-decoration: none;
+	box-shadow: none;
+	}
+}
+
+
+@media only screen and (max-width: 400px) 
+{
+	ol
+	{
+		font-size: 17px;
+	}
+}

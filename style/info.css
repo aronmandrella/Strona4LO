@@ -1,0 +1,92 @@
+.content
+{
+	padding: 25px;
+	color: #fff;
+	font-size: 18px;
+	text-align: left;
+}
+
+
+.content h1
+{
+	font-size: 25px;
+	text-decoration: underline;
+	color: #ea0;
+	
+	text-align: left;
+}
+.content h2
+{
+	font-size: 25px;
+	color: #79a;
+	text-decoration: underline;
+
+	text-align: left;
+	margin: default;
+}
+.content h3
+{
+	font-size: 25px;
+	color: #79a;
+	margin: 0;
+	margin-top: 20px;
+	
+	text-align: center;
+}
+.content h4
+{
+	color: #ea0;
+	font-size: 18px;
+}
+.content h4 a
+{
+	color: #ea0;
+	font-size: 19px;
+	transition: all 0.2s ease-in-out;
+}
+.content a
+{
+	font-size: 110%;
+	transition: all 0.2s ease-in-out;
+	overflow: hidden;
+}
+.content a:before
+{
+	content: '⇒';
+}
+.content a:hover
+{
+	text-decoration: underline;
+}
+.content h5
+{
+	font-size: 22px;
+	color: #79a;
+	margin: 0;
+	margin-top: 20px;
+	
+	text-align: left;
+}
+.float_text
+{
+	display: inline-block;
+	vertical-align:top;
+	margin: 20px;
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+	.container
+	{
+		min-height: 0px;
+	}
+}
+
+@media only screen and (max-width: 400px) 
+{
+	.content
+	{
+		border: 3px dashed #578;
+	}
+}

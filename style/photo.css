@@ -1,0 +1,71 @@
+body
+{
+	background: url(img/gray.jpg);
+	
+	margin: 0 !important;
+	
+	font-family: 'Cuprum', sans-serif;
+	color: white;
+	font-size: 15px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.photo_frame
+{
+	width: 80%;
+	
+	margin: auto;
+	padding-top: 20px;
+}
+.photo_frame img
+{
+	width: 100%;
+	
+	-webkit-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.9);
+	box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.9);
+}
+
+
+.photo_frame .header
+{
+	position: relative;
+	z-index: 100;
+
+	text-align: center;
+	color: #567;
+	font-size: 40px;
+}
+.photo_frame i
+{
+	color: #567;
+	font-size: 80px;
+	opacity: 0.8;
+	transition: all 0.2s ease-in-out;
+}
+.photo_frame i:hover
+{
+	opacity: 1;
+}
+
+
+
+.photo_frame .footer
+{
+	font-size: 16px;
+	text-align: center;
+	margin: 20px 0px;
+}
+.photo_frame .footer a
+{
+	opacity: 0.9;
+	color: #567;
+}
+.photo_frame .footer a:hover
+{
+	opacity: 1;
+}

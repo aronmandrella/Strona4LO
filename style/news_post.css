@@ -1,0 +1,86 @@
+.post
+{	
+	vertical-align: middle;
+	display: inline-block;
+	overflow: hidden;
+	margin: 15px;
+	max-width: 500px;
+	
+	border-radius: 2px;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.8);
+}
+.post .header
+{
+	background: #576f81;
+	
+	margin: 0px;
+	padding: 10px;
+	color: #ddd;
+	
+	font-size: 20px;
+	text-align: left;
+}
+.post .header:before
+{
+	content:"";
+}
+
+
+.post .header button
+{
+	background: none;
+	position: relative;
+	left: -5px;
+	margin: 0px 0px;
+	padding: 0px;
+	
+    border:	none;
+    cursor:	pointer;
+	font-size: 100%;
+	color: inherit;
+	opacity: 0.5;
+	
+	transition: all 0.2s ease-in-out;
+}
+.post .header button:hover
+{
+	opacity: 1;
+}
+
+
+.post .main
+{
+	background: #fafafa;
+	
+	padding: 10px 20px;
+	
+	font-size: 18px;
+	text-align: left;
+	
+	color: #000;
+}
+.post .footer
+{
+	background: #ddd;
+	opacity: 1;
+	
+	padding: 5px;
+	
+	color:	#000;
+	font-size: 15px;
+	text-align: right;
+	
+	border-top: 1px dashed #444;
+}
+.post .main img
+{
+	max-width:100%;
+	max-height:100%;
+	cursor: pointer;
+	transition: opacity 0.1s ease-in-out;
+	opacity: 1;
+}
+.post .main img:hover
+{
+	opacity: 0.95;
+}

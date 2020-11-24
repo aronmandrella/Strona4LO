@@ -1,0 +1,180 @@
+body
+{
+	background: url(img/red.jpg);
+	
+	margin: 0 !important;
+	
+	font-family: 'Cuprum', sans-serif;
+	color: white;
+	font-size: 15px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+ol
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#school
+{
+	background: url("img/school_bg.png") no-repeat center -90px;
+
+	background-size: 1500px;
+	height: 340px;
+}
+#school_br
+{
+		display: none;
+}
+#main_header
+{
+	background: #e7f6f3 url("img/school_bg_sky.png") no-repeat center -45px;
+
+	background-size: 1500px;
+	height: 290px;
+	padding-top: 50px;
+
+	font-family: 'Libre Baskerville', serif;
+	
+	text-align: center;
+	color: #400;
+	font-size: 44px;
+	letter-spacing: -2px;
+}
+#main_header a
+{
+	color: #400;
+}
+#logo_inner
+{
+	background-color: #400;
+	
+
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing: 2px;
+	font-size: 0.5em;
+	color: #fff;
+	
+	border-radius: 4px;
+	text-shadow: none;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+}
+
+
+.separator
+{
+	background-color: #322;
+	
+	position: relative;
+	z-index: 50;
+	
+	min-height: 4px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.8);
+}
+
+
+#main_nav
+{
+	background: url(img/gray.jpg);
+	
+	text-align: center;
+	padding: 8px;
+}
+#main_nav a
+{	
+	color: #79a;
+	text-decoration: underline;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	
+	padding: 0px 24px;
+	
+	letter-spacing: 1px;
+	
+	transition: all 0s ease-in-out;
+}
+#main_nav a:hover
+{	
+	color: #fff;
+}
+
+
+#footer
+{
+	line-height: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+	#info
+	{
+		text-decoration: none;
+	}
+	#school
+	{
+		background: url("img/school_bg.png") no-repeat center -35px;
+
+		background-size: 1200px;
+		height: 285px;
+		overflow: hidden;
+	}
+	#school_br
+	{
+		display: block;
+	}
+    #main_header
+	{
+	background: #e7f6f3 url("img/school_bg_sky.png") no-repeat center 0px;
+	background-size: 1200px;
+
+	padding-top: 15px;
+	height: 285px;
+
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 0px;
+	overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 400px) 
+{
+	#footer
+	{
+		font-size: 90%;
+	}
+	#main_header
+	{
+
+	font-size: 30px;
+    }
+	#info
+	{	
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width: 365px) 
+{
+	#footer
+	{
+		font-size: 70%;
+	}
+}
+@media only screen and (max-width: 320px) 
+{
+	#main_header
+	{
+
+	font-size: 25px;
+
+    }
+}
