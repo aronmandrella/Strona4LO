@@ -9,6 +9,8 @@ Strona ta powstała w ramach projektu na studiach.
 Celem było stworzenie estetycznej strony internetowe posiadającej prosty system CMS, bez bazowania na żadnym gotowym frameworku.
 Był to mój pierwszy kontakt z technologiami webowymi.
 
+↩️ [Powrót do portfolio](https://github.com/aronmandrella/portfolio#strona-internetowa-liceum-2017)
+
 ## 🧰 Wykorzystane technologie i narzędzia
 * **JavaScript ES5, CSS, HTML**
 * **AJAX**
@@ -25,5 +27,3 @@ Był to mój pierwszy kontakt z technologiami webowymi.
 
 ## Interfejs graficzny
 ![GUI-GIF](https://raw.githubusercontent.com/aronmandrella/Strona4LO/main/-%20Grafiki/Gui1.gif)
-
-↩️ [Powrót do portfolio](https://github.com/aronmandrella/portfolio#strona-internetowa-liceum-2017)
