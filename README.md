@@ -1,5 +1,3 @@
-↩️ [Powrót do portfolio](https://github.com/aronmandrella/portfolio#strona-internetowa-liceum-2017)
-
 # Strona internetowa liceum (2017)
 
 **Autor**: Aron Mandrella
@@ -27,3 +25,5 @@ Był to mój pierwszy kontakt z technologiami webowymi.
 
 ## Interfejs graficzny
 ![GUI-GIF](https://raw.githubusercontent.com/aronmandrella/Strona4LO/main/-%20Grafiki/Gui1.gif)
+
+↩️ [Powrót do portfolio](https://github.com/aronmandrella/portfolio#strona-internetowa-liceum-2017)
