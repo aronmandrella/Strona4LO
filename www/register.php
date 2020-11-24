@@ -25,8 +25,8 @@
 	define("ERROR_RECAPTCHA_FAILED", 			"Potwierdź że nie jesteś botem.");
 	define("ERROR_REGISTER_CODE_WRONG", 		"Wprowadzony kod rejestracyjny nie był poprawny.");
 	
-	define("reCAPTCHA_SiteKey", 				"6LeGKTcUAAAAAPmTf6T8U4iACCQIYfM_epN5It__");
-	define("reCAPTCHA_SecretKey", 				"6LeGKTcUAAAAACvuQ0ytjNcBAiidNf5d5UPg_RIy");	
+	define("reCAPTCHA_SiteKey", 				"xxx");
+	define("reCAPTCHA_SecretKey", 				"xxx");	
 	
 	//-------------------------------------------------------------//
 	//----------OBSŁUGA FORMULARZA LOGOWANIA----------//
