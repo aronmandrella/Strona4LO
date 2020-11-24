@@ -5,6 +5,4 @@
 
 **Konto pozwalające dodawać posty:**
 
-Login: admin
-
-Hasło: root111
+Login: admin, Hasło: root111
