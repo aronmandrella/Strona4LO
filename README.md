@@ -5,9 +5,9 @@
 ![Thumbnail](https://raw.githubusercontent.com/aronmandrella/Strona4LO/main/-%20Grafiki/GitHub_Thumbnail.png)
 
 ## Opis
-Ta prosta aplikacja stanowi połączenie Twittera i Pokemon GO.
-Osoba chcąca odczytać dany opublikowany post, musi się udać z telefonem niedaleko miejsca w którym znajdował się jego autor w chwili publikacji.
-Aplikacja powstała w ramach zaliczenia przedmiotu na studiach.
+Strona ta powstała w ramach projektu na studiach.
+Celem było stworzenie estetycznej strony internetowe posiadającej prosty system CMS, bez bazowania na żadnym gotowym frameworku.
+Był to mój pierwszy kontakt z technologiami webowymi.
 
 ## 🧰 Wykorzystane technologie i narzędzia
 * **JavaScript ES5, CSS, HTML**
@@ -19,7 +19,9 @@ Aplikacja powstała w ramach zaliczenia przedmiotu na studiach.
 * **Adobe Photoshop**
 
 ## 🎓 Zdobyta bądź poszerzona wiedza
-* Tworzenie prostych aplikacji mobilnych wykorzystujących webiew oraz funkcje telefonu takie jak aparat i lokalizacja
+* Projektowanie i implementacja stron internetowych
+* Zarządzanie bazą danych
+* Hashowanie przesyłanych danych
 
 ## Interfejs graficzny
 ![GUI-GIF](https://raw.githubusercontent.com/aronmandrella/Strona4LO/main/-%20Grafiki/Gui1.gif)
