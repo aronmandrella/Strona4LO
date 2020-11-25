@@ -9,8 +9,6 @@ Strona ta powstała w ramach projektu na studiach.
 Celem było stworzenie estetycznej strony internetowe posiadającej prosty CMS ułatwiającym pisanie kodu HTML, bez bazowania na żadnym gotowym frameworku.
 Był to mój pierwszy kontakt z technologiami webowymi.
 
-↩️ [Powrót do portfolio](https://github.com/aronmandrella/portfolio#spis-tre%C5%9Bci)
-
 ## 🧰 Wykorzystane technologie i narzędzia
 * **JavaScript ES5, CSS, HTML**
 * **AJAX**
